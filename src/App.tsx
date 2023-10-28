@@ -10,7 +10,7 @@ const styles = {
 };
 
 function App() {
-  const [backendAddress, setBackendAddress] = useState(`http://${window.location.hostname}}:7070`);
+  const [backendAddress, setBackendAddress] = useState(`http://${window.location.hostname}:7070`);
   const [explorerType, setExplorerType] = useState<ExplorerType>('search_space');
 
   const [predicates, setPredicates] = useState<ExplorerPredicate[]>([]);
